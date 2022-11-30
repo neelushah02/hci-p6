@@ -1,0 +1,72 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* MENU STYLING */
+#menu {
+    display: flex;
+    position: sticky;
+    height: 5%;
+    background-color: white;
+    color: black;
+    font-family: "Radio Canada", sans-serif;
+    list-style-type: none;
+}
+.menu-items {
+    margin: auto;
+}
+
+/* ABOUT ME STYLING */
+#about {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#pic-div {
+    flex-basis: 40%;
+    padding-right: 5%;
+}
+#pic {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#before-bio {
+    color: gray;
+    font-size: large;
+    font-family: "Radio Canada", sans-serif
+}
+.bio {
+    font-size: large;
+    font-family: "Radio Canada", sans-serif
+}
+.resume-contacts {
+    display: flex;
+    align-items: center;
+}
+#resumeButton {
+    border-radius: 20%;
+    border-width: 10%;
+    font-size: medium;
+    font-family: "Radio Canada", sans-serif
+}
+#icons {
+    display: flex;
+    padding-left: 20px;
+}
+i {
+    margin-right: 40%;
+}
+@media screen and (max-width: 800px) {
+    #about {
+        justify-content: space-around;
+    }}  
+@media screen and (max-width: 500px) {
+#about {
+    flex-direction: column;
+}}
