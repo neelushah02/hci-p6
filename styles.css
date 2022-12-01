@@ -1,5 +1,6 @@
 body {
-    background-color: whitesmoke;
+    /* background-color: #F4EBD9; */
+    background-color: #fdf6e3;
 }
 
 /* MENU STYLING */
@@ -7,13 +8,19 @@ body {
     display: flex;
     position: sticky;
     height: 5%;
-    background-color: white;
-    color: black;
+    background-color: #6E5E61;
+    color: white;
     font-family: "Radio Canada", sans-serif;
     list-style-type: none;
 }
 .menu-items {
     margin: auto;
+    color: white;
+}
+
+.menu-links:visited {
+    text-decoration: none;
+    color:#F4EBD9;
 }
 
 /* ABOUT ME STYLING */
@@ -33,18 +40,23 @@ body {
 }
 
 h1 {
-    font-size: 45px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: 50px;
+    font-family: "Radio Canada", sans-serif;
+    margin-bottom: 2%;
 }
 h2 {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: "Radio Canada", sans-serif;
+}
+.underline {
+    text-decoration: underline;
+    text-decoration-color: yellow;
 }
 #before-bio {
-    color: gray;
+    color: rgb(98, 97, 97);
     font-size: large;
     font-family: "Radio Canada", sans-serif
 }
@@ -57,8 +69,8 @@ h2 {
     align-items: center;
 }
 #resumeButton {
-    border-radius: 20%;
-    border-width: 10%;
+    border-radius: 10%;
+    border-width: 30%;
     font-size: medium;
     font-family: "Radio Canada", sans-serif
 }
@@ -93,6 +105,7 @@ i {
     height: 250px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5%;
     transition: 0.3s;
     width: 40%;
 }
@@ -113,6 +126,7 @@ i {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 #poem {
@@ -123,7 +137,12 @@ a {
 footer {
     text-align: center;
     font-family: "Radio Canada", sans-serif;
-    background-color: white;
+    background-color: #6E5E61;
+    color: white;
+}
+
+.bio-links {
+    padding: 15%;
 }
 
 @media screen and (max-width: 500px) {

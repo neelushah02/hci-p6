@@ -12,25 +12,25 @@
 <body>
     <!-- building navigation menu -->
     <ul id="menu">
-        <li class="menu-items"><a href="#about">HOME</a></li>
-        <li class="menu-items"><a href="#writings">WRITINGS</a></li>
-        <li class="menu-items"><a href="#artwork">ARTWORK</a></li>
+        <li aria-label="Jump to Home" class="menu-items"><a class="menu-links" href="#about">HOME</a></li>
+        <li aria-label="Jump to Writings" class="menu-items"><a class="menu-links" href="#writings">WRITINGS</a></li>
+        <li aria-label="Jump to Artwork" class="menu-items"><a class="menu-links" href="#artwork">ARTWORK</a></li>
     </ul>
     <!-- profile pic and about me / bio section -->
     <div id="about">
         <div id="pic-div">
-            <img id="pic" src="Assets/latest.png">
+            <img id="pic" alt="Picture of Neel, wearing a red shirt." src="Assets/latest.png">
         </div>
         <div id="info">
             <h1 id="name">Neel Shah</h1>
             <div id="before-bio">NORTHWESTERN UNIVERSITY</div>   
-            <p class="bio">Hi, I'm Neel. I'm a senior Davis Scholar at Northwestern University, where I major in Economics and Computer Science with a minor in History.<br>I'm passionate about fiscal policy, artificial intelligence and the climate. I also enjoy translating poetry and reading about historical linguistics.<br>Most recently, I was a Summer Associate at EY-Parthenon. While on campus, I work for the Institute for Sustainability and Energy developing syllabi, and was a Leopold Fellow researching comparative tax policy.<br>On the weekends you can find me drinking tea, playing soccer,and tending to my plants—often all at the same time!</p>
+            <p class="bio">Hi, I'm Neel. I'm a senior Davis Scholar at Northwestern University, where I major in <span class="underline">Economics</span> and <span class="underline">Computer Science</span> with a minor in <span class="underline">History</span>.<br>I'm passionate about <span class="underline">fiscal policy</span>, <span class="underline">artificial intelligence</span> and the <span class="underline">climate</span>. I also enjoy translating poetry and reading about historical linguistics.<br>Most recently, I was a Summer Associate at <span class="underline">EY-Parthenon</span>. While on campus, I work for the Institute for Sustainability and Energy developing syllabi, and was a Leopold Fellow researching comparative tax policy.<br>On the weekends you can find me drinking tea, playing soccer, and tending to my plants—often all at the same time!</p>
             <div class="resume-contacts">
-                <a href="Assets/resume.pdf"><button id="resumeButton">RESUME</button></a>
+                <a href="Assets/resume.pdf"><button aria-label="Resume Button" id="resumeButton">RESUME</button></a>
                 <div id="icons">
-                    <i class="fa-solid fa-envelope"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-github"></i>  
+                    <a class="bio-links" href="mailto:neelshah2023@u.northwestern.edu" aria-label="Icon link for email."><i alt="Icon of an envelope." class="fa-solid fa-envelope"></i></a>
+                    <a class="bio-links" href="https://www.linkedin.com/in/neel-shah-4a641b1a7/" aria-label="Icon link for Linkedin."><i alt="Icon of the Linkedin logo." class="fa-brands fa-linkedin-in"></i></a>
+                    <a class="bio-links" href="https://github.com/neelushah02" aria-label="Icon link for Github."><i alt="Icon of the Github logo." class="fa-brands fa-github"></i></a>  
                 </div>                
             </div>
         </div>
@@ -39,7 +39,7 @@
     <div class="card-row">
         <div class="card">
             
-            <div class="card-pic-container"><img class="card-pic" src="Assets/cobol_image.jpeg"></div>
+            <div class="card-pic-container"><img alt="Picture of scientists sitting around a computer." class="card-pic" src="Assets/cobol_image.jpeg"></div>
             <a href="https://works.swarthmore.edu/suhj/vol3/iss2/6/">
             <div class="card-info">
                 COBOL Cripples the Mind!
@@ -47,7 +47,7 @@
             </a>
         </div>
         <div class="card">
-            <div class="card-pic-container"><img class="card-pic" src="Assets/eitc_image.png"></div>
+            <div class="card-pic-container"><img alt="Picture of the earned income tax credit curve." class="card-pic" src="Assets/eitc_image.png"></div>
             <a href="Assets/eitcpaper.pdf">
             <div class="card-info">
                 The Earned Income Tax Credit and the Extensive Margin of the Labor Supply
@@ -55,7 +55,7 @@
             </a>
         </div>
         <div class="card">
-            <div class="card-pic-container"><img class="card-pic" src="Assets/metro.png"></div>
+            <div class="card-pic-container"><img alt="Picture of a data visualization of metro stations in Delhi." class="card-pic" src="Assets/metro.png"></div>
             <a href="https://medium.com/basillabs/striking-a-balance-priorities-of-tourists-and-locals-on-the-delhi-metro-afbaa68950d1">
             <div class="card-info">
                 Striking a Balance: Priorities of Tourists and Locals on the Delhi Metro
@@ -67,7 +67,7 @@
     <h2 id="artwork">Artwork</h2>
     <div class="card-row">
         <div class="card">
-            <div class="card-pic-container"><img class="card-pic" src="Assets/machine.jpg"></div>
+            <div class="card-pic-container"><img alt="Picture of a typewriter." class="card-pic" src="Assets/machine.jpg"></div>
             <a href="https://colab.research.google.com/drive/1x1WZ_qgvfb1737cWKnUtuwKuHExdyrp8?usp=sharing">
             <div class="card-info">
                 Machine of Loving Grace
@@ -75,7 +75,7 @@
             </a>
         </div>
         <div class="card">
-            <div class="card-pic-container"><img class="card-pic" src="Assets/kedar.jpg"></div>
+            <div class="card-pic-container"><img alt="Picture of the poet Kedarnath Singh." class="card-pic" src="Assets/kedar.jpg"></div>
             <a href="">
             <div class="card-info">
                 Translating Kedarnath Singh
@@ -83,7 +83,7 @@
             </a>
         </div>
         <div class="card">
-            <div class="card-pic-container"><img class="card-pic" src="Assets/stars.jpg"></div>
+            <div class="card-pic-container"><img alt="Picture of a starlit sky." class="card-pic" src="Assets/stars.jpg"></div>
             <a href="http://lament-of-love.glitch.me/">
             <div class="card-info">
                 Lament of Love
@@ -98,7 +98,7 @@
     </div>
 </div>
 </body>
-<footer>Written in HTML and CSS by Neel Shah. <br> Created for class assignment for CS-330 at Northwestern.</footer>
+<footer>Written in HTML and CSS by Neel Shah. <br> Created for class assignment for CS-330 at Northwestern. <br><br></footer>
 </html>
 <!-- 
 TO DO:
