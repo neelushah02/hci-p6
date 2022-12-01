@@ -18,7 +18,7 @@ body {
     color: white;
 }
 
-.menu-links:visited {
+.menu-links{
     text-decoration: none;
     color:#F4EBD9;
 }
